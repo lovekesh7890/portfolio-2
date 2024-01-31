@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: blueviolet;
+}
+.about{
+    font-size: 40px;
+    font-weight:700;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    
+}
+.about p{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: poppoins;
+    margin-right: 35px;
+    margin-top: 20px;
+    
+}
+.image img{
+    width: 30%;
+    height: 75vh;
+    margin-top: 70px;
+    margin-left: 120px;
+    border-left: none;
+    border-top: 3px solid;
+    border-right: 3px solid;
+    border-bottom: 3px solid;  
+}
+.image img{
+    animation-name: img;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+}
+@keyframes img {
+    from{
+        width: 30%;
+        height: 75vh;
+    }
+    to{
+    width: 40%;
+    height: 80vh;
+    }
+}
